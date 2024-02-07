@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Number Luck Game</h1>
+    <p>You will get ten chances in which you have to get the correct number between 1-100 . <br> See how lucky you are!</p>
+    <form>
+        <div>Guess the number: <input id="guessed-input" type="text"></div>
+        <button class="btn">Submit Guess</button>
+    </form>
+
+    <div class="result">
+        <p>Previous Guesses: <span class="guesses"></span></p>
+        <p>Attempts remaining: <span class="guesses-remaining"></span></p>
+        <p class="low-high"></p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
